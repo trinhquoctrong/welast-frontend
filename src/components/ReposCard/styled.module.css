@@ -1,0 +1,21 @@
+.wrapper {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper .item {
+  margin-bottom: 8px;
+}
+
+.wrapper .item span:first-child {
+  color: red;
+  font-weight: 700;
+}
+
+.wrapper .author img {
+  border-radius: 50%;
+}

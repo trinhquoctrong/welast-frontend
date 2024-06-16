@@ -1,0 +1,31 @@
+.wrapper {
+  width: 700px;
+  max-width: calc(100% - 40px);
+  margin: 20px auto;
+}
+
+.content {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content div {
+  margin-bottom: 10px;
+}
+
+.content div span {
+  color: red;
+  display: block;
+}
+
+.content div p {
+  max-width: 100%;
+}
+
+.content div button {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
